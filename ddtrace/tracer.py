@@ -210,7 +210,7 @@ class Tracer(object):
         :param dogstatsd_url: The DogStatsD URL.
         """
 
-        print("Local")
+        print("Locally")
 
         maybe_start_serverless_mini_agent()
 
