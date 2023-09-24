@@ -210,6 +210,8 @@ class Tracer(object):
         :param dogstatsd_url: The DogStatsD URL.
         """
 
+        print("Local")
+
         maybe_start_serverless_mini_agent()
 
         self._filters = []  # type: List[TraceFilter]
